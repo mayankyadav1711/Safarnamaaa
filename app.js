@@ -6,7 +6,7 @@ const { MONGOURI } = require('./config/keys')
 
 
 
-mongoose.connect(MONGOURI,{
+mongoose.connect(process.env.MONGOURI || MONGOURI,{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
