@@ -80,7 +80,7 @@ postSchema.pre('find', autoPopulateUser);
 function autoPopulateUser(next) {
   this.populate('likes', 'name profilepic')
     .populate('connectedBy', 'name profilepic')
-    .populate('postedBy', 'name profilepic email currlocation');
+    .populate('postedBy', 'name profilepic email currlocation birthdate');
   next();
 }
 
