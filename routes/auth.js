@@ -49,7 +49,7 @@ router.post('/signup',(req,res)=>{
                           <p>Get ready to embark on an incredible journey with us.</p>
                           <p>Here's your pathway to proceed:</p>
                           <ol>
-                            <li>Create your profile - it only takes 2 minutes!</li>
+                            <li>Create your profile - it only takes 30 seconds!</li>
                             <li>Explore and search for your desired travel destinations.</li>
                             <li>Connect with your ideal travel companion using Connect+ and Instagram.</li>
                             <li>You're all set to embark on unforgettable life experiences!</li>
@@ -58,7 +58,7 @@ router.post('/signup',(req,res)=>{
                           <p>So let’s start your Safar with Safarnamaaa and If you have any questions or need assistance, feel free to reach out to our team.</p>
                           <p>Enjoy the journey!</p>
                           <p>Best regards,</p>
-                          <p>[Safarnamaaa Team]</p>
+                          <p>[Team Safarnamaaa]</p>
                         `,
                       });
                       
